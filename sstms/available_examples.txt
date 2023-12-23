@@ -1,0 +1,26 @@
+% _________________________________________________________________________
+% SIMPLE RLC CIRCUIT
+%
+% system: RLC
+% available instance(s):
+%         Ch3           % a simple 2-state LTI system from Chapter 3 of the PhD thesis
+% _________________________________________________________________________
+% MODULAR MUTLILEVEL VOLTAGE-SOURCE CONVERTER
+% 
+% system: MMC
+% available instance(s): (CCC stands for circulating current control)
+%         CCC_1PH       % simplified 1-phase MMC, uncompensated modulation (CC control, AC control)
+%         CCC_1PH_DLY   % simplified 1-phase MMC, uncompensated modulation (CC control, AC control), with delay
+%         CCC_3PH       % 3-phase MMC, uncompensated modulation (CC control, AC control, PQ control, PLL-SOGI-PNSE)
+%         CCC_3PH_DLY   % 3-phase MMC, uncompensated modulation (CC control, AC control, PQ control, PLL-SOGI-PNSE), with delay
+% _________________________________________________________________________
+% NETWORKS
+% 
+% system: NET
+% available instance(s): (all of these instances are defined with delays)
+%         GFM_MMC_OWF_3TLC_DLY       % offshore MMC in AC-grid-forming mode and OWF with 3 TLCs
+%         HVDC_GFL_MMC_DLY           % HVDC link with AC-grid-following MMCs
+%         HVDC_GFM_MMC_OWF_3TLC_DLY  % HVDC link with offshore MMC in AC-grid-forming mode and OWF with 3 TLCs
+%         OWF_1TLC_DLY               % OWF with 1 TLC
+%         OWF_3TLC_DLY               % OWF with 3 TLCs
+% _________________________________________________________________________
